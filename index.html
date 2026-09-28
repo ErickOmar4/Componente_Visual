@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo · UIKit</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ErickOmar4/utileria-js@main/com_visual/ui-kit.css">
+  <link rel ="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <h1>Librería UIKit — pruebas de Modal, Tooltip y Carrusel</h1>
+
+  <!-- ============ 1) MODAL ============ -->
+  <section>
+    <h2>1 Modal — desde JavaScript</h2>
+    <button class="demo-btn" id="btn-modal-js">Abrir modal (vía JS)</button>
+    <button class="demo-btn" id="btn-modal-js2">Abrir modal (vía JS)</button>
+
+    <h2>Modal — solo con HTML (sin JS propio)</h2>
+    <button
+      class="demo-btn"
+      data-ui-modal
+      data-title="Hola desde HTML"
+      data-content="Este modal se abrió sin escribir ni una línea de JavaScript, solo con atributos data-*.">
+      Abrir modal (vía HTML)
+    </button>
+    
+  </section>
+
+  <!-- ============ 2) TOOLTIP ============ -->
+  <section>
+    <h2>2 Tooltip — solo con HTML</h2>
+    <button class="demo-btn" data-ui-tooltip data-text="¡Este es un tooltip!" data-position="top">
+      Pasa el mouse aquí
+    </button>
+  </section>
+
+  <!-- ============ 3) CARRUSEL ============ -->
+  
+
+  
+  <div id="miCarrusel"></div>
+
+<script src="ui-kit.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/gh/ErickOmar4/utileria-js@main/com_visual/ui-kit.js"></script>
+  <script src="js/implementacion.js"></script>
+</body>
+</html>
