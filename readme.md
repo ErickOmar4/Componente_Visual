@@ -124,13 +124,3 @@ El modal se cierra con la "X", haciendo clic fuera de la caja, o con la tecla `E
 
 El carrusel incluye botones de anterior/siguiente, puntos indicadores y pausa el autoplay mientras el mouse está encima.
 
-## Archivos del repositorio
-
-| Archivo             | Para qué sirve                                                        |
-|---------------------|-------------------------------------------------------------------------|
-| `librerlaV.js`          | Librería completa, comentada y fácil de leer/modificar.                |
-| `libreriav.js`      | Misma librería, minificada (recomendada para producción).              |
-| `libreriaV.css`         | Estilos de los 3 componentes (no requiere Bootstrap ni ningún framework).|
-| `index.html`          | Página de prueba con ejemplos de los 3 componentes.                     |
-
-ejemplo de implentacion index
